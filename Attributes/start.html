@@ -12,14 +12,23 @@
   <body>
     <form>
       <lable for="number"> number </lable>
-      <input type="text" name="number" min="0" max="100" step="1">
-      <br><br>
+      <input type="number">
+      <br>
+      <input type="range" name="range" min="0" max="100" list="tickmarks">
+      <datalist id="tickmarks">
+        <option value="0">
+        <option value="100">
+      </datalist>
+       <br><br> 
+       
       <lable for="inscription">inscription</lable>
       <input type="checkbox" name="inscription" value="inscribed">
-      <br>
-      <br>
+      <br><br>
+
       <lable for="date">date</lable>
       <input type="date" name="date" >
+      <br><br>
+
       <button>invio</button>
     </form>
   </body>
