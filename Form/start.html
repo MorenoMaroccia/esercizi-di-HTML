@@ -40,12 +40,13 @@
     <input type="number" name="number">
     <br><br>
 
-    <input type="checkbox" name="choosing plans">
-    <label for="choosing plans">free plan:€0</label>
-    <input type="checkbox" name="choosing plans">
-    <label for="choosing plans">intermediate Plan:€25</label>
-    <input type="checkbox" name="choosing plans">
-    <label for="choosing plans">Pro Plan:€50</label>
+    <label for="form-plan">Plans</label>
+    <select id="form-plan" name="plan">
+      <option value="0">Free</option>
+      <optgroup label="Monthly">
+        <option value="199">4.99€/month</option>
+        <option value="599">9.99€/month</option>
+        <option value="1199">14.99€/month</option>
     <br><br>
 
     <label for="number">Credit card number</label>
